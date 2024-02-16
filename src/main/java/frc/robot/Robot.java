@@ -23,8 +23,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  */
 public class Robot extends TimedRobot {
   Date jlbdate = new Date();
-  //private final CANSparkMax m_leftDrive = new CANSparkMax(2, MotorType.kBrushless); // 2024 02 15 original test motor
-  private final CANSparkMax m_leftDrive = new CANSparkMax(3, MotorType.kBrushless); // 20240215 new drive
+  private final CANSparkMax m_leftDrive = new CANSparkMax(2, MotorType.kBrushless); // 2024 02 15 original test motor
+  //private final CANSparkMax m_leftDrive = new CANSparkMax(5, MotorType.kBrushless); // 20240215 new drive
   // private final CANSparkMax m_rightDrive = new CANSparkMax(6, MotorType.kBrushless); // 2024 02 15 original test motor
   private final CANSparkMax m_rightDrive = new CANSparkMax(4, MotorType.kBrushless); // 20240215 new drive
  
